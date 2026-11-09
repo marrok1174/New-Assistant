@@ -1,1 +1,6 @@
-# New-Assistant
+Four Companions — Phone-first PWA prototype
+This is a local-storage-only prototype, NOT a functioning AI assistant. It has four switchable personas, chat-history placeholders, notes, browser text-to-speech, and an offline application shell. It does not execute autonomous tasks, medication reminders, internet searches, or account actions.
+Install from a Galaxy Z Fold5 without a PC
+A PWA must be hosted on HTTPS for installability and service workers (localhost is a development exception). Upload the files in this folder to a static HTTPS host (for example GitHub Pages or Cloudflare Pages) using your phone browser, preserving filenames. Open the HTTPS address in Samsung Chrome and select ⋮ > Add to Home screen > Install, if offered. Merely downloading or opening the ZIP as a file does NOT install it.
+Do not enter sensitive information in the prototype until you have reviewed the host and local-storage privacy implications. Browser data clearing can erase notes and conversations; use Export my data to back up.
+For reliable native Android background tasks, phone app automation, and notifications, an Android APK is needed. Windows automation requires a separate Windows host. A free GPT-5-equivalent model is not included.# New-Assistant
